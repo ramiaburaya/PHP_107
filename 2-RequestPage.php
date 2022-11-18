@@ -1,6 +1,6 @@
 <?php
-    echo "<h1>Hello <mark>" . $_REQUEST['Fname'] . " " . $_REQUEST['Lname'] . "</mark> ";
     
-    echo "<h2>Welcome to PHP_107</h2>";
-
+    echo "Name is => " . $_POST['Fname'] . " " . $_POST['Lname'] . "<br>";
+    echo "Email is => " . $_POST['email'] . "<br>";
+    echo "Phone is => " . $_POST['phone'] . "<br>";
     ?>

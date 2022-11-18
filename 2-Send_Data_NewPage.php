@@ -9,6 +9,10 @@
         background-color: #BCBCBC;
     }
 
+    label {
+        display: block;
+    }
+
     form {
         background-color: #e4e4e4;
         border-left: 3px solid #000;
@@ -17,6 +21,7 @@
         border-radius: 35px;
         width: 250px;
         top: 50%;
+        display: block;
     }
 
     td,
@@ -36,13 +41,24 @@
 
     <center>
         <form method="post" action="2-RequestPage.php" autocomplete="off">
+
             <label for="Fname">First Name</label>
             <input type="text" name="Fname">
 
             <br>
-            <br>
+
             <label for="Lname">Last Name</label>
             <input type="text" name="Lname">
+
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email">
+
+            <br>
+
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone">
 
             <br>
             <br>
