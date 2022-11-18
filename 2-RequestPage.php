@@ -11,6 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $email = testInput($_POST['email']);
     $password = testInput($_POST['password']);
 
+
+
     echo "Email is <mark>" . $email . "</mark><br>";
     echo "Password is <mark>" . $password . "</mark><br>";
 }
