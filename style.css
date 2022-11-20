@@ -1,0 +1,21 @@
+body {
+    background-color: #D6E4E5;
+}
+
+form {
+    top: 50%;
+    padding: 10px;
+    margin: 10px;
+    width: 320px;
+}
+
+.btn {
+    margin: 15px;
+}
+.alert{
+    top: 50%;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
