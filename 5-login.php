@@ -2,20 +2,12 @@
 
 
 <?php include 'design/navbar.php'; ?>
-<?php
-if ($_SERVER['REQUEST_METHOD'] == "GET") {
-    if (isset($_REQUEST['result'])) {
-        $result = $_REQUEST['result'];
-        echo "<h1>" . $result . "</h1>";
-    }
-}
 
 
-?>
 <br><br><br><br><br><br>
 
 <center>
-    <form method="get" action="<?php echo htmlspecialchars("5-handel_login.php"); ?>" autocomplete="off">
+    <form method="post" action="<?php echo htmlspecialchars("5-handel_login.php"); ?>" autocomplete="off">
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="userName" name="userName" placeholder="name@example.com">
             <label for="userName">username</label>
